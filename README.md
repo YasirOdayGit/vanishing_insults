@@ -1,16 +1,8 @@
 # vanishing_insults
 
-A new Flutter project.
+A fun flutter project that allow friends to exchange funny insults to one another once a day. Each user is allowed to insult their friends once. Each consecutive daily insult will add to the streak (just like snapchat). 
 
-## Getting Started
+## Backend
 
-This project is a starting point for a Flutter application.
+This project will not include the backend logic, though I might implement it in the future. For now, this project is only the frontend.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
