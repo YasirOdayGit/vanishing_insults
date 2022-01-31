@@ -4,6 +4,8 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:vanishing_insults/constants/program_config.dart';
 import 'package:vanishing_insults/routes/left_right.dart';
+import 'package:vanishing_insults/routes/right_left.dart';
+import 'package:vanishing_insults/screens/friends_screen.dart';
 import 'package:vanishing_insults/screens/profile_screen.dart';
 import 'package:vanishing_insults/widget/user_widget.dart';
 
@@ -76,7 +78,8 @@ class _HomeState extends State<Home> {
               ),
               IconButton(
                   onPressed: () {
-                    // print("pressed");
+                    Navigator.of(context).push(
+                        RightToLeftCustomRoute(child: const FriendsScreen()));
                   },
                   icon: const Icon(
                     Icons.group_add,
