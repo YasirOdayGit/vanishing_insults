@@ -5,6 +5,7 @@ Color primaryColor = const Color(0xff00c2ff);
 Color accentColor = const Color(0xffffe600);
 Color textGray = const Color(0xff838383);
 Color blackColor = const Color(0xff000000);
+Color grayBack = const Color(0xffebebeb);
 double defaultPadding = 16;
 String robertPicture =
     "https://media.istockphoto.com/photos/strong-real-person-real-body-senior-man-proudly-flexing-muscles-picture-id638471524";

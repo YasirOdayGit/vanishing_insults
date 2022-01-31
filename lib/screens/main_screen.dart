@@ -3,6 +3,8 @@ import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:vanishing_insults/constants/program_config.dart';
+import 'package:vanishing_insults/routes/left_right.dart';
+import 'package:vanishing_insults/screens/profile_screen.dart';
 import 'package:vanishing_insults/widget/user_widget.dart';
 
 class Home extends StatefulWidget {
@@ -55,9 +57,15 @@ class _HomeState extends State<Home> {
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceAround,
             children: [
-              CircleAvatar(
-                radius: 25,
-                backgroundImage: NetworkImage(yasir.profilePicture!),
+              GestureDetector(
+                onTap: () {
+                  Navigator.of(context).push(
+                      LeftToRightCustomRoute(child: const ProfileScreen()));
+                },
+                child: CircleAvatar(
+                  radius: 25,
+                  backgroundImage: NetworkImage(yasir.profilePicture!),
+                ),
               ),
               Text(
                 "Friend List",
@@ -68,7 +76,7 @@ class _HomeState extends State<Home> {
               ),
               IconButton(
                   onPressed: () {
-                    print("pressed");
+                    // print("pressed");
                   },
                   icon: const Icon(
                     Icons.group_add,
