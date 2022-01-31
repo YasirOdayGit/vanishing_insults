@@ -8,14 +8,10 @@ This project will not include the backend logic, though I might implement it in 
 
 ## Figma files
 Figma files were created by me, feel free to use them for inspiration.
-# Home
-![image](https://user-images.githubusercontent.com/95036084/151712849-ef3b911f-4d8e-494b-b760-bc7b971cab55.png)
 
-# Friends
-![image](https://user-images.githubusercontent.com/95036084/151712890-ae18a22d-bc32-431f-b830-3a61b2ceba14.png)
+![image](https://user-images.githubusercontent.com/95036084/151712849-ef3b911f-4d8e-494b-b760-bc7b971cab55.png) ![image](https://user-images.githubusercontent.com/95036084/151712890-ae18a22d-bc32-431f-b830-3a61b2ceba14.png) ![image](https://user-images.githubusercontent.com/95036084/151712906-f7cc130d-48a1-4b3a-9b57-73de0b7658d9.png)
 
-# Account
-![image](https://user-images.githubusercontent.com/95036084/151712906-f7cc130d-48a1-4b3a-9b57-73de0b7658d9.png)
 
 # Individual chat
+This was not implemented
 ![image](https://user-images.githubusercontent.com/95036084/151712932-4bbe7834-fcad-4ab4-9b2c-6c4b559f232c.png)
